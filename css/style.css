@@ -415,3 +415,8 @@ div.box_add1 {
     height: 438px;  
     background-image: url(../img/р438.png);
 }
+.product-box,
+.product-box_add {
+    transition: ease 300ms;
+}
+
