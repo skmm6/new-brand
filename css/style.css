@@ -3,6 +3,7 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: #fff;
     color: #222222;
+    transition: ease 300ms;
 }
 
 .red {
@@ -404,19 +405,67 @@ div.box_add1 {
 .product-box:hover .product-box_add {
     opacity: 1;
 }
-
-.h438{
+.h438 {
     height: 438px;
+}
+.bgcim{
     background-color: #e9e9e9;
-    display: flex;
-  
 }
 .fotimg {
     height: 438px;  
     background-image: url(../img/р438.png);
+     background-repeat: no-repeat;
+    background-position: center;
 }
 .product-box,
 .product-box_add {
     transition: ease 300ms;
 }
+.foting-left {
+    display:flex;
+    flex-direction: row;
+    border-right: 1px solid #e3e3e3;
+}
+.foting-left__quote {
+    font-family: "Lato italic"  sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    font-style: italic;
+    color: #222224;
+}
+.foting-left__Bin{
 
+    font-size: 12pt;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+
+.foting-left__Bin > span{
+    font-size: 16pt;
+    font-weight: 700;
+}
+.foting-left_box1 {
+    padding: 2px 19px;
+    background-color: #d6d6d6;
+    margin-right: 13px;
+}
+.foting-left_container {
+    display: flex;
+
+}
+.bgred {
+    background-color: #f16d7f;
+}
+.foting-left__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.mrb20px{
+    margin-bottom: 20px;
+}
+.foting-left>div>img {
+    margin-top: 90px;
+}
